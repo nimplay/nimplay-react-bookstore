@@ -1,10 +1,13 @@
+/* eslint-disable react/prop-types */
+import React from 'react';
+
 function Book() {
   return (
     <div className="book">
       <div>
         <h4 className="book-genre">Action</h4>
-        <h3>The Hunger Games</h3>
-        <p className="book-author">Suzanne Collins</p>
+        <h3>Title</h3>
+        <p className="book-author">Author</p>
         <div className="book-btns">
           <button type="submit" className="comment-book">Comments</button>
           <button type="submit" className="delete-book">Remove</button>

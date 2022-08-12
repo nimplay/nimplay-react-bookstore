@@ -1,12 +1,12 @@
 import Form from '../components/Form';
-import Book from '../components/Book';
+import BookList from '../components/Book_list';
 
 function Home() {
   return (
     <>
       <div className="home-container">
         <div>
-          <Book />
+          <BookList />
         </div>
         <div>
           <Form />
