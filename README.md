@@ -1,71 +1,61 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blue)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bookstore Project
 
-## Available Scripts
+This is a Bookstore project in microverse course for educational purposes and porfolio construction.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- Javascript
+- HTML
+- CSS
+- WebPack
+- React
+- Redux
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In process ⏳⌛️ 
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To access and change the code on your computer (using GIT):
 
-### `npm run build`
+Note: if you don't use git, you can download the ZIP of this repository by clicking on the "Code" button above the files list.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Setup Open the repository link. Click on the "Code" button, above the files list. Select one of the three options to copy the URL: HTTPS, SSH key and GitHub CLI. Open the Terminal in the directory you want to copy the project. Type git clone, paste the URL you copied, and press enter. Usage To edit this project:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open the repository you cloned with a code editor that you like. Edit the code as you want.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prerequisites
 
-### `npm run eject`
+git terminal VisualStudio code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the [repo](https://github.com/nimplay/nimplay-react-bookstore.gitt)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is for educational purposes and porfolio.
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Nimrod Acosta 
+ - Github: [@nimplay](https://github.com/nimplay) 
+ - Twitter: [@NimrodAcosta](https://twitter.com/NimrodAcosta)
+ - LinkedIn: [Nimrod Acosta](https://www.linkedin.com/in/nimrod-acosta-734330169/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contribution
 
-### Code Splitting
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Fork the Project 1.Create your New Feature Branch (git checkout -b name/your/branch). 2.Commit your Changes Dont forget to put you name (git commit -m 'Add some Amazing suggestion'). 3.Push to the Branch (git push origin name/your/branch). 4.Open a Pull Request.
 
-### Analyzing the Bundle Size
+## Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# nimplay-react-bookstore
+- Microverse Github
