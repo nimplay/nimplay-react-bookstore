@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import logo from '../user.png';
 
-function navbar() {
+function NavBar() {
   return (
     <div className="header">
       <div className="subheader">
@@ -22,4 +22,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default NavBar;
