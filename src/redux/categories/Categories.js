@@ -1,7 +1,17 @@
-const Categories = () => (
-  <div className="categoriesContainer">
-    <h1>Under Construction</h1>
-  </div>
-);
+const CHECKED_STATUS = 'bookstore/categories/CHECKED_STATUS';
 
-export default Categories;
+const checkStatus = () => ({
+  type: CHECKED_STATUS,
+});
+
+const categoryReducer = (state = [], action = {}) => {
+  switch (action.type) {
+    case CHECKED_STATUS:
+      return 'Under construction';
+    default:
+      return state;
+  }
+};
+
+export { checkStatus };
+export default categoryReducer;
