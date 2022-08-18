@@ -8,7 +8,7 @@ function Book(props) {
     <>
       <div>
         <h4 className="book-genre">{category}</h4>
-        <h3>{title}</h3>
+        <h3 className="book-title">{title}</h3>
         <p className="book-author">{author}</p>
       </div>
     </>

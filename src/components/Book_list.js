@@ -16,7 +16,7 @@ function BookList() {
     });
   };
   return (
-    <div className="home-container">
+    <div>
       {books.map((book) => (
         <div key={book.item_id} className="book">
           <div>
@@ -27,14 +27,16 @@ function BookList() {
               <button type="submit" className="edit-book">Edit</button>
             </div>
           </div>
-          <div>
-            <p className="book-porcentage-number">65%</p>
-            <p className="book-porcentage">COMPLETED</p>
-          </div>
-          <div>
-            <p className="book-character">CURRENT CHAPTER</p>
-            <p className="book-character-number">Chapter 17</p>
-            <button type="submit" className="update-book">UPDATE PROGRESS</button>
+          <div className="box-data">
+            <div className="porcentage-box">
+              <p className="book-porcentage-number">65%</p>
+              <p className="book-porcentage">COMPLETED</p>
+            </div>
+            <div>
+              <p className="book-character">CURRENT CHAPTER</p>
+              <p className="book-character-number">Chapter 17</p>
+              <button type="submit" className="update-book">UPDATE PROGRESS</button>
+            </div>
           </div>
         </div>
       ))}

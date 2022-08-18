@@ -8,6 +8,7 @@ function Home() {
         <div>
           <BookList />
         </div>
+        <div id="line" />
         <div>
           <Form />
         </div>
