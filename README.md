@@ -15,7 +15,7 @@ This is a Bookstore project in microverse course for educational purposes and po
 
 ## Live Demo
 
-In process ⏳⌛️ 
+[Demo](https://elaborate-kataifi-827aed.netlify.app/)
 
 ## Getting Started
 
