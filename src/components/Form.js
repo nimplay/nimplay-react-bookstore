@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 } from 'uuid';
-import { addBook } from '../redux/books/Books';
+import { asyncAdd } from '../redux/books/ApiBooks';
 
 function Form() {
   const dispatch = useDispatch();
@@ -10,14 +10,19 @@ function Form() {
     e.preventDefault();
     if (e.target.title.value && e.target.author.value) {
       const book = {
-        id: v4(),
+        item_id: v4(),
         title: e.target.title.value,
         author: e.target.author.value,
-        genre: 'Novel',
+        category: 'Fiction',
       };
-      dispatch(addBook(book));
-      e.target.title.value = '';
-      e.target.author.value = '';
+      dispatch(asyncAdd(book)).then((response) => {
+        e.target.title.value = '';
+        e.target.author.value = '';
+        alert.innerHTML = response.payload;
+        setTimeout(() => {
+          alert.innerHTML = '';
+        }, 3000);
+      });
     } else {
       alert.innerHTML = 'Please fill Book Title and Author.';
       setTimeout(() => {

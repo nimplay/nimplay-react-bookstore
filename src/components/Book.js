@@ -3,11 +3,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Book(props) {
-  const { title, author, genre } = props;
+  const { title, author, category } = props;
   return (
     <>
       <div>
-        <h4 className="book-genre">{genre}</h4>
+        <h4 className="book-genre">{category}</h4>
         <h3>{title}</h3>
         <p className="book-author">{author}</p>
       </div>
@@ -17,6 +17,6 @@ function Book(props) {
 Book.propTypes = {
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  genre: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
 };
 export default Book;

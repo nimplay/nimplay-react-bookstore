@@ -1,7 +1,12 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import booksReducer from './books/Books';
 import Categories from './categories/Categories';
-import arrBooks from './List_books';
+import { asyncGet } from './books/ApiBooks';
+
+const preloadedState = {
+  books: [],
+  categories: [],
+};
 
 const rootReducer = combineReducers({
   books: booksReducer,
@@ -10,7 +15,9 @@ const rootReducer = combineReducers({
 
 const store = configureStore({
   reducer: rootReducer,
-  preloadedState: arrBooks,
+  preloadedState,
 });
+
+store.dispatch(asyncGet());
 
 export default store;
