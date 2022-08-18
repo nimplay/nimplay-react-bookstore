@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(223, 223, 223);
+  background-color: #fafafa;
   display: flex;
   place-content: center;
   font-family: 'Montserrat', sans-serif;
@@ -18,6 +18,7 @@ body {
 
 .header {
   width: 100vw;
+  height: 5.9rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -25,8 +26,9 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border: solid 1px #e8e8e8;
 }
 
 .header-title {
@@ -67,16 +69,18 @@ body {
 }
 
 .logo {
-  height: 2rem;
-  border: 1px solid rgb(87, 87, 87);
+  width: 2.813rem;
+  height: 2.813rem;
+  padding: 0.6rem;
+  border: solid 1px #e8e8e8;
   border-radius: 50%;
 }
 
 .home-container {
   display: flex;
   flex-direction: column;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   margin-top: 1rem;
 }
 
@@ -93,20 +97,44 @@ body {
   background-color: white;
   gap: 2rem;
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 4px;
   margin-bottom: 1rem;
+  border: solid 1px #e8e8e8;
 }
 
 .book-genre {
-  font-size: 1rem;
-  color: slategray;
+  font-size: 0.87rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.book-title {
+  font-size: 1.37rem;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
 }
 
 .book-author {
   color: #4386bf;
-  font-family: 'Roboto Slab', serif;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .book-btns {
@@ -116,7 +144,7 @@ body {
   width: 100%;
   height: max-content;
   background-color: white;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .comment-book {
@@ -126,9 +154,14 @@ body {
   height: 2rem;
   text-align: start;
   color: #4386bf;
-  font-size: 0.9rem;
-  font-family: 'Roboto Slab', serif;
-  border-right: 1px solid rgb(180, 180, 180);
+  font-family: 'Montserrat', sans-serif;
+  border-right: solid 1px #e8e8e8;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .delete-book {
@@ -138,10 +171,15 @@ body {
   height: 2rem;
   text-align: center;
   color: #4386bf;
-  font-size: 0.9rem;
-  font-family: 'Roboto Slab', serif;
-  border-right: 1px solid rgb(180, 180, 180);
+  font-family: 'Montserrat', sans-serif;
+  border-right: solid 1px #e8e8e8;
   padding-right: 0.3rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .edit-book {
@@ -151,9 +189,14 @@ body {
   height: 2rem;
   text-align: start;
   color: #4386bf;
-  font-size: 0.9rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Montserrat', sans-serif;
   padding-left: 0.2rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .update-book {
@@ -167,23 +210,63 @@ body {
   border-radius: 5px;
 }
 
+.box-data {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.porcentage-box {
+  border-right: 1px solid #e8e8e8;
+  padding-right: 5rem;
+}
+
 .book-porcentage-number {
-  font-size: xx-large;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
 }
 
 .book-porcentage {
-  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
 }
 
 .book-character {
-  font-size: 1rem;
-  color: slategray;
+  opacity: 0.5;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
 }
 
 .book-character-number {
   font-size: 1rem;
   margin-top: 0.5rem;
   margin-bottom: 0.3rem;
+}
+
+#line {
+  width: 100%;
+  height: 1px;
+  border: solid 1px #e8e8e8;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 /* form */
@@ -210,16 +293,16 @@ body {
   width: 100%;
   height: 3rem;
   padding: 1rem;
-  border: none;
   border-radius: 5px;
+  border: solid 1px #e8e8e8;
 }
 
 .new-author {
   width: 100%;
   height: 3rem;
   padding: 1rem;
-  border: none;
   border-radius: 5px;
+  border: solid 1px #e8e8e8;
 }
 
 #alert {
